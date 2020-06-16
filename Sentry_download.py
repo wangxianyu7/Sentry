@@ -97,6 +97,10 @@ if __name__ == '__main__':
     # json2csv part
     json_list = [x for x in os.listdir(os.getcwd())
                   if '.json' in x and 'summary' not in x  ]
+<<<<<<< HEAD
+=======
+
+>>>>>>> 53c71abb714dd959c838ddde55f3abe7cef4049d
     for json_filename in json_list:
         print(json_filename, 'Json2csv Done!')
         json2excel(json_filename)
